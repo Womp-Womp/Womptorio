@@ -1,0 +1,8 @@
+[package]
+name = "womporio-ascii"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bracket-terminal = { version = "0.8", default-features = false, features = ["cross_term"] }
+womporio-core = { path = "../core" }

@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "crates/core",
+  "crates/server",
+  "crates/ascii-client",
+  "crates/api",
+  "tools/blueprint-linter"
+]
+resolver = "2"

@@ -1,0 +1,10 @@
+[package]
+name = "womporio-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+mlua = { version = "0.9", features = ["lua54", "vendored"] }
+serde = { version = "1", features = ["derive"] }
+womporio-core = { path = "../core" }
