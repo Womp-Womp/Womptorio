@@ -1,0 +1,8 @@
+name = "base"
+version = "0.1.0"
+description = "Vanilla content shipped with Womporio."
+author = "Womporio Team"
+[content]
+items = "data/items.toml"
+recipes = "data/recipes.toml"
+ships = "data/ships.toml"
